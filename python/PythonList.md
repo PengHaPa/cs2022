@@ -55,7 +55,7 @@ print(list1)
 ```
 ``` python
 list1 = ["D", "20", "false", "30.2", "heights"]
-print(list)
+print(list1)
 ```
 # Type()
 - From Python's perspective, lists are defined as objects with the data type 'list':
