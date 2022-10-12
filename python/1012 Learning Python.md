@@ -75,12 +75,12 @@ thislist = list(("cars", "bus", "bicycle"))
 print(thislist)
 ```
 # "PYTHON BASIC LIST OPERATOR"
-
-  # Python- Access List Items
-   ## Access Items  
-    - List items are indexed and you can access them by referring to the index number:
-   ## Example
-         Print the second item of the list:
+# Python- Access List Items
+## Access Items
+- List items are indexed and you can access them by referring to the index number:
+## Example
+- Print the second item of the list:
+         
 ``` python
 thislist = ["cars", "motorcycle", "bus"]
 print(thislist[1])
