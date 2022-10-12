@@ -6,7 +6,7 @@
 - Lists are used to store multiple items in a single variable.
 - Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.
 - Lists are created using square brackets:
-
+## Example
 ``` python
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
@@ -18,6 +18,7 @@ print(thislist[2])
 
 ## Allow Duplicates
 - Since lists are indexed, lists can have items with the same value:
+## Example
 ``` python
 thislist = ["apple", "banana", "cherry", "apple", "cherry"]
 print(thislist[0])
@@ -28,6 +29,7 @@ print(thislist)
 
 ## List Length
 - To determine how many items a list has, use the len() function:
+## Example
 ``` python
 thislist = ["apple", "banana", "pineapple", "cherry"]
 print(len(thislist))
@@ -39,6 +41,7 @@ print(len(thislist))
 
 ## List Items - Data Types
 - List items can be of any data type:
+## Example
 ``` python
 list1 = ["apple", "banana", "cherry"]
 list2 = [1, 5, 7, 9, 3]
@@ -59,6 +62,7 @@ print(list1)
 ```
 ## Type()
 - From Python's perspective, lists are defined as objects with the data type 'list':
+## Example
 ``` python
 mylist = ["apple", "banana", "cherry"]
 print(type(mylist))
@@ -66,6 +70,7 @@ print(type(mylist))
 ## The list() Constructor
 - It is also possible to use the list() constructor when creating a new list.
 - Using the list() constructor to make a List:
+## Example
 ``` python
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
@@ -124,8 +129,13 @@ print(thislist[-4:-1])
 ```
 ## Check if Item Exists
 - To determine if a specified item is present in a list use the in keyword:
-
-
+## Example
+- Check if "bus" is present in the list:
+``` Python
+thislist = ["Cars", "bus", "motorcycle"
+if "bus" in thislist
+  print(Yes 'bus' is in the transportaion list)
+```
 
 
 
