@@ -32,6 +32,9 @@ print(thislist)
 thislist = ["apple", "banana", "pineapple", "cherry"]
 print(len(thislist))
 ``` 
+``` python
+thislist = ["cars", "bicycle", "bus", "motorcycle"]
+```
 
 # List Items - Data Types
 - List items can be of any data type:
@@ -49,14 +52,16 @@ print(list3)
 list1 = ["abc", 34, True, 40, "male"]
 print(list1)
 ```
-
+``` python
+list1 = ["D", "20", "false", "30.2", "heights"]
+print(thistlist)
+```
 # Type()
 - From Python's perspective, lists are defined as objects with the data type 'list':
 ``` python
 mylist = ["apple", "banana", "cherry"]
 print(type(mylist))
 ```
-
 # The list() Constructor
 - It is also possible to use the list() constructor when creating a new list.
 - Using the list() constructor to make a List:
@@ -64,7 +69,10 @@ print(type(mylist))
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
 ```
-
+``` python
+thislist = list(("cars", "bus", "bicycle"))
+print(thislist)
+```
 
 
 
