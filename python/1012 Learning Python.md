@@ -101,14 +101,29 @@ print(thislist[-1])
 ## Example
 - Return the third, fourth, and fifth item:         
 ``` python
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+thislist = ["Cars", "bicycle", "bus", "motorcycle", "taxi", "train", "airplane"]
 print(thislist[2:5])
 ```     
-
-
-
-
-
+- This example returns the items from the beginning to, but NOT including, "motorcycle":
+``` python
+thislist = ["Cars", "bicycle", "bus", "motorcycle", "taxi", "train", "airplane"]
+print(thislist[:3])
+```
+- This example returns the items from "bus" to the end:
+``` python
+thislist = ["Cars", "bicycle", "bus", "motorcycle", "taxi", "train", "airplane"]
+print(thislist[2:])
+```
+## Range of Negative Indexes
+- Specify negative indexes if you want to start the search from the end of the list:
+## Example
+- This example returns the items from "motorcycle" (-4) to, but NOT including "airplane" (-1):
+``` python
+thislist = ["Cars", "bicycle", "bus", "motorcycle", "taxi", "train", "airplane"]
+print(thislist[-4:-1])
+```
+## Check if Item Exists
+- To determine if a specified item is present in a list use the in keyword:
 
 
 
