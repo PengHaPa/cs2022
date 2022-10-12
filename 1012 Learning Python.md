@@ -1,4 +1,4 @@
-#  1005 PYTHON DATA TYPE LIST
+#  1012 PYTHON DATA TYPE LIST
 
 # "PYTHON LIST"
 
@@ -74,6 +74,8 @@ print(thislist)
 thislist = list(("cars", "bus", "bicycle")) 
 print(thislist)
 ```
+
+#
 
 
 
