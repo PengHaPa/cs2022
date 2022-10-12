@@ -34,6 +34,7 @@ print(len(thislist))
 ``` 
 ``` python
 thislist = ["cars", "bicycle", "bus", "motorcycle"]
+print(len(thislist))
 ```
 
 # List Items - Data Types
@@ -54,7 +55,7 @@ print(list1)
 ```
 ``` python
 list1 = ["D", "20", "false", "30.2", "heights"]
-print(thistlist)
+print(list)
 ```
 # Type()
 - From Python's perspective, lists are defined as objects with the data type 'list':
@@ -70,7 +71,7 @@ thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
 ```
 ``` python
-thislist = list(("cars", "bus", "bicycle"))
+thislist = list(("cars", "bus", "bicycle")) 
 print(thislist)
 ```
 
