@@ -11,54 +11,59 @@
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
 ```
-''' python
+``` python
 thislist = ["apple", "banana", "cherry"]
 print(thislist[2])
-'''
+```
 
-Allow Duplicates
--Since lists are indexed, lists can have items with the same value:
-
+# Allow Duplicates
+- Since lists are indexed, lists can have items with the same value:
+``` python
 thislist = ["apple", "banana", "cherry", "apple", "cherry"]
 print(thislist[0])
 print(thislist[3])
 print(thislist[1])
 print(thislist)
+```
 
-List Length
--To determine how many items a list has, use the len() function:
-
+# List Length
+- To determine how many items a list has, use the len() function:
+``` python
 thislist = ["apple", "banana", "pineapple", "cherry"]
 print(len(thislist))
+``` 
 
-List Items - Data Ty-pes
--List items can be of any data type:
-
+# List Items - Data Ty-pes
+- List items can be of any data type:
+``` python
 list1 = ["apple", "banana", "cherry"]
 list2 = [1, 5, 7, 9, 3]
 list3 = [True, False, False]
 print(list1)
 print(list2)
 print(list3)
+```
 
--A list can contain different data types:
-
+- A list can contain different data types:
+``` python
 list1 = ["abc", 34, True, 40, "male"]
 print(list1)
+```
 
-Type()
--From Python's perspective, lists are defined as objects with the data type 'list':
-
+# Type()
+- From Python's perspective, lists are defined as objects with the data type 'list':
+``` python
 mylist = ["apple", "banana", "cherry"]
 print(type(mylist))
+```
 
-The list() Constructor
--It is also possible to use the list() constructor when creating a new list.
--Using the list() constructor to make a List:
-
+# The list() Constructor
+- It is also possible to use the list() constructor when creating a new list.
+- Using the list() constructor to make a List:
+``` python
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
-
+```
 
 
 
