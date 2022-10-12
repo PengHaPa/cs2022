@@ -201,9 +201,25 @@ thislist.insert(1, "motorcycle")
 print(thislist)
 ```
 ## Extend List
-- 
-
-
+- To append elements from another list to the current list, use the extend() method.
+## Example
+- Add the elements of land to thislist:
+```python
+thislist = ["motorcycle", "bus", "car"]
+land = ["airplane", "boat", "jet"]
+thislist.extend(land)
+print(thislist)
+```
+## Add Any Iterable
+- The extend() method does not have to append lists, you can add any iterable object (tuples, sets, dictionaries etc.).
+## Example
+- Add elements of a transpo to a list:
+```python
+thislist = ["airplane", "boat", "jet"]
+transpo = ("train", "cars")
+thislist.extend(thistuple)
+print(thislist)
+```
 
 
 
