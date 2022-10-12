@@ -132,10 +132,92 @@ print(thislist[-4:-1])
 ## Example
 - Check if "bus" is present in the list:
 ``` Python
-thislist = ["Cars", "bus", "motorcycle"
-if "bus" in thislist
-  print(Yes 'bus' is in the transportaion list)
+thislist = ["Cars", "bus", "motorcycle"]
+if "bus" in thislist:
+  print("Yes, 'bus' is in the transportaion list")
 ```
+# Python - Change List Items
+## Change Item Value
+- To change the value of a specific item, refer to the index number:
+## Example
+- Change the second item:
+``` python
+thislist = ["cars", "bus", "airplane"]
+thislist[1] = "bicycle"
+print(thislist)
+```
+## Change a Range of Item Values
+- To change the value of items within a specific range, define a list with the new values, and refer to the range of index numbers where you want to insert the new values:
+- If you insert more items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly:
+## Example
+- Change the values "bicycle" and "bus" with the values "horse" and "boat":
+``` python
+thislist = ["Cars", "bicycle", "bus", "motorcycle", "taxi", "train", "airplane"]
+thislist[1:3] = ["horse", "boat"]
+print(thislist)
+```
+- Change the second value by replacing it with two new values:
+``` python
+thislist = ["cars", "bus", "airplane"]
+thislist[1:2] = ["boat", "train"]
+print(thislist)
+```
+- Note: The length of the list will change when the number of items inserted does not match the number of items replaced.
+- If you insert less items than you replace, the new items will be inserted where you specified, and the remaining items will move accordingly:
+``` python
+thislist = ["cars", "bus", "airplane"]
+thislist[1:3] = ["motorcycle"]
+print(thislist)
+```
+## Insert Items
+- To insert a new list item, without replacing any of the existing values, we can use the insert() method.
+- The insert() method inserts an item at the specified index:
+## Example
+- Insert "boat" as the third item: 
+```python
+thislist = ["cars", "bus", "airplane"]
+thislist.insert(2, "boat")
+print(thislist)
+```
+- Note: As a result of the example above, the list will now contain 4 items.
+# Python - Add List Items
+## Append Items
+- To add an item to the end of the list, use the append() method:
+## Example
+- Using the append() method to append an item:
+``` python
+thislist = ["cars", "bus", "airplane"]
+thislist.append("boat")
+print(thislist)
+```
+## Insert Items
+- To insert a list item at a specified index, use the insert() method.
+- The insert() method inserts an item at the specified index:
+## Example
+- Insert an item as the second position:
+```python
+thislist = ["cars", "bus", "airplane"]
+thislist.insert(1, "motorcycle")
+print(thislist)
+```
+## Extend List
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
