@@ -33,7 +33,7 @@ thislist = ["apple", "banana", "pineapple", "cherry"]
 print(len(thislist))
 ``` 
 
-# List Items - Data Ty-pes
+# List Items - Data Types
 - List items can be of any data type:
 ``` python
 list1 = ["apple", "banana", "cherry"]
