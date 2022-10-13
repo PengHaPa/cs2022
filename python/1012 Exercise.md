@@ -1,9 +1,10 @@
 # 1012 EXERCISE
 ## Exercise 1
 - Print the second item in the fruits list.
-
+```python
 fruits = ["apple", "banana", "cherry"]
-print(        ) 
+print(        )
+```
 ### Answer
 ```python
 fruits = ["apple", "banana", "cherry"]
