@@ -10,3 +10,11 @@ print(        )
 fruits = ["apple", "banana", "cherry"]
 print(fruits[2])
 ```
+## Exercise 2
+- Change the value from "apple" to "kiwi", in the fruits list.
+```python
+fruits = ["apple", "banana", "cherry"]
+       =       
+```
+
+
