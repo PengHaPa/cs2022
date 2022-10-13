@@ -87,6 +87,29 @@ print(      )
 fruits = ["apple", "banana", "cherry"]
 print(len(fruits))
 ```
+## Example 3: Deleting element that doesn't exist
+```python
+# transportion list
+vehicle = ['car', 'boat', 'car', 'airplane', 'train']
+
+# 'car' is removed
+vehicle.remove('car')
+
+
+# Updated transportation list
+print('Updated transportation list: ', vehicle)
+```
+## Example 3: Deleting element that doesn't exist
+```python
+# transportation list
+vehicle = ['car', 'boat', 'airplane', 'train']
+# Deleting 'motorcycle' element
+vehicle.remove('motorcycle')
+
+
+# Updated transportation list
+print('Updated transportation list: ', vehicle)
+```
 
 
 
