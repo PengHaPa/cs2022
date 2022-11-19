@@ -22,7 +22,7 @@ answer: [D](https://www.w3schools.com/python/python_syntax.asp#:~:text=Python%20
 # 3.
 ``` python
 Python has commenting capability for the purpose of in-code documentation. Comments start with a  __________
-(A)A  (B) # (C) /  (D)&
+(A)A  (B)#  (C)/  (D)&
 
 ```
 answer: [B](https://www.w3schools.com/python/python_comments.asp#:~:text=Comments%20starts%20with%20a%20%23)
