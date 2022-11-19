@@ -36,6 +36,18 @@ print(_________)
 ```
 answer: [A](https://www.w3schools.com/python/python_strings.asp#:~:text=For%20Loops%20chapter.-,String%20Length,-To%20get%20the)
 
+# 13. 
+```
+Check if "free" is present in the following text:
+
+txt = "The best things in life are free!"
+print("free" ______ txt)
+
+Which is the correct answer?
+(A) on (B) with (C) at  (D) in
+```
+answer: [D]
+
 # 15.
 ``` python
 Python has a set of built-in methods that you can use on strings. Which method can converts string into lower case ?
