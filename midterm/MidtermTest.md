@@ -46,7 +46,7 @@ print("free" ______ txt)
 Which is the correct answer?
 (A) on (B) with (C) at  (D) in
 ```
-answer: [D]
+answer: D
 
 # 15.
 ``` python
